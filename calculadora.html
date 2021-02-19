@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<link rel="stylesheet" type="text/css" href="semana36.css">
+
+<body>
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("nun").value);
+        var n2= Number(document.getElementById("num").value);
+        var sumar=n1+n2;
+        document.getElementById('sumar').value=sumar;
+        x.push(sumarr);
+        sumar.value=x.length;
+        document.getElementById('con').value=x;
+        
+
+        }
+
+</script>
+<form>
+        <label class="p" ><center><h1> CALCULADORA</h1></center> </label><br>
+        <center><input class="o1" type="text" id="nun" placeholder="INGREAR UN NUMERO" ><br><br></center>
+        <center><input class="o2" type="text" id="num" placeholder="INGRESAR UN NUMERO" ><br><br></center>
+        <br>
+        <br>
+        <center><input class="t1" type="button" value="SUMAR" onclick="suma();"></center>
+        <br>
+        <br>
+        <center><label class="re" ><h2> RESULTADO:</h2> </label><br></center>
+        <center><input class="sum" type="" id="sumar" value=""></center>
+    </form>
+<a href="Periodo 1.html"><button class="b11">Volver a periodo 1</button></a>
+</body>
+</html>
