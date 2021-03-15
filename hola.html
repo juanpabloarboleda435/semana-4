@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 1</title>
+	<link rel="stylesheet" type="text/css" href="1.css">
+
+</head>
+<body onload="aleatorio()">
+	<h1><center>Ejercicio Número 1</center></h1>
+<div class="cua" id="hola" onmousedown="clico(event)"></div>
+<script>
+	function aleatorio(){
+	var numx=Math.floor((Math.random() * (1001-1))+1);
+	var numy=Math.floor((Math.random() * (501-1))+1);
+	hola.style.left=numx+"px"
+	hola.style.top=numy+"px"
+    }
+
+    function clico(event){
+	var numx = Math.floor((Math.random() * (1001-1))+1);
+	var numy = Math.floor((Math.random() * (501-1))+1);
+	hola.style.left=numx+"px"
+	hola.style.top=numy+"px"
+    }
+</script>
+
+
+</body>
+</html>
